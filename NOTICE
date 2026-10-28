@@ -1,0 +1,14 @@
+notif-city includes work derived from these MIT-licensed projects:
+
+1. android-ad-cleaner, https://github.com/rddmwmddr/android-ad-cleaner (commit e2419d1)
+   MIT License, Copyright (c) 2026 (the LICENSE names no holder; the repository owner is rddmwmddr).
+   The channel parser, the marketing keyword list (KW), the exclusion list (SKIP) and the photo-spot
+   protection in notif_city.mjs are ports of tool/chan_fast.py and tool/channel_policy.py.
+   channels.tsv uses the list format of chan_fast.py.
+
+2. anatomy, https://github.com/wheresryan22/anatomy (commit 1482e84)
+   MIT License, Copyright (c) 2026 Ryan.
+   vendor/iso.mjs is kit/iso-kit.mjs from the top of the file through extrude(), unchanged except that
+   the unused `bevel` option was removed.
+
+The dumps in examples/ are synthetic. The package names (com.example.*) and app names are made up.

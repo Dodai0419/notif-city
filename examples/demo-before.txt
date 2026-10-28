@@ -1,0 +1,56 @@
+Notification Manager
+  mRankingHelper:
+  PackagePreferences:
+    AppSettings: com.example.shopmart (10200) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='orders', mName=Order updates, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='promo_deals', mName=Deals and promotions, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='flash_sale', mName=Flash sale alerts, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='recommend', mName=Recommended for you, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='coupons', mName=Coupons and member offers, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='chat', mName=Seller messages, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.quickfood (10201) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='delivery', mName=Delivery status, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='offers', mName=Offers near you, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='lunch_push', mName=Lunch deals, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='news', mName=What's new, mDescription=, mImportance=2, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.dailynews (10202) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='breaking', mName=Breaking news, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='topstory', mName=Top stories, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='for_you', mName=Picked for you, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='live', mName=Live coverage, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='sync', mName=Background sync, mDescription=, mImportance=1, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.rides (10203) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='trip', mName=Trip status, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='promo', mName=Ride promotions, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='payments', mName=Payments, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.chat (10204) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='messages', mName=Messages, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='calls', mName=Calls, mDescription=, mImportance=5, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='groups', mName=Group messages, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.bank (10205) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='security', mName=Security alerts, mDescription=, mImportance=5, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='transfers', mName=Transfers, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='marketing', mName=Products and offers, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.camera (10206) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='spot', mName=找机位推荐, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='backup', mName=Backup progress, mDescription=, mImportance=2, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.video (10207) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='upload', mName=Upload progress, mDescription=, mImportance=2, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='live_push', mName=直播推荐, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='hot', mName=热门内容, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='follow', mName=New from channels you follow, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.music (10208) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='playback', mName=Playback, mDescription=, mImportance=2, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='weekly', mName=Weekly mix recommendations, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.weather (10209) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='alerts', mName=Severe weather alerts, mDescription=, mImportance=5, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='daily', mName=Daily forecast, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='news', mName=Weather news, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.store (10210) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='updates', mName=App updates, mDescription=, mImportance=2, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='featured', mName=Featured apps, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='deals', mName=Payments, deals and recommendations, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+    AppSettings: com.example.games (10211) importance=DEFAULT userLockedFields=0
+      NotificationChannel{mId='events', mName=Event rewards and sign-in bonus, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+      NotificationChannel{mId='friends', mName=Friend requests, mDescription=, mImportance=3, mBypassDnd=false, mLockscreenVisibility=-1000, mLights=false, mVibrationEnabled=false, mShowBadge=true, mDeleted=false, mDeletedTimeMs=-1}
+  mGroups:
